@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abderezak Mansour — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">&lt;Abderezak/&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#home">~/home</a></li>
+      <li><a href="#about">~/about</a></li>
+      <li><a href="#skills">~/skills</a></li>
+      <li><a href="#projects">~/projects</a></li>
+      <li><a href="#contact">~/contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">bash — bizk@portfolio</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">~$</span> <span class="cmd">whoami</span></p>
+          <p class="output typewriter">
+              Abderezak Mansour — Software engineering student
+          </p>
+          <p><span class="prompt">~$</span> <span class="cmd">cat mission.txt</span></p>
+          <p class="output">Building cool things with code.</p>
+          <p class="output">Passionate about math, programming & open source.</p>
+          <p><span class="prompt">~$</span> <span class="cursor">█</span></p>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="about">
+    <div class="section-header">
+      <span class="section-tag"># about.md</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <div class="terminal-inline">
+          <span class="prompt">~$</span> cat about.txt
+        </div>
+          <p>Hi! I'm <strong>Abderezak</strong>, 
+            <br>
+            a Software Engineering student based in <strong>Bejaia, Algeria</strong>.</p>
+
+          <p>
+          I enjoy building applications across web, mobile, and desktop platforms. I'm passionate about Linux, experimenting with new tools, and continuously learning new technologies.
+          </p>
+
+          <p>
+          When I'm not coding, I like customizing my desktop, exploring open-source projects, or watching people build exciting hardware projects in mechatronics and robotics.
+          </p>
+       <div class="stats">
+          <div class="stat">
+            <span class="stat-num">4+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years coding</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="profile-pic">
+          <img src="#" alt="Abderezak Mansour" >
+        </div>
+        <div class="info-list">
+          <div class="info-item">
+            <span class="info-key">name:</span> 
+            <span class="info-val">Abderezak</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">location:</span>
+             <span class="info-val">Bejaia, Algeria</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">github:</span> 
+            <span class="info-val"><a href="https://github.com/bizkda" target="_blank" style="color:var(--accent2)">@bizkda</a></span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">linked in:</span> 
+            <span class="info-val"><a href="https://www.linkedin.com/in/abderezak-mansour-35b773396/" target="_blank" style="color:var(--accent2)">@Abderezak</a></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <span class="section-tag"># skills.json</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Django</span>
+          <span class="tag">PHP</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <span class="section-tag"># ls ~/projects</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">⬡</span>
+          <div class="project-links">
+            <a href="https://github.com/walid-droid/AuctiOnLine" target="_blank" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <h3>AuctiOnLine</h3>
+        <p>An online auction platform where users can list items, place bids and manage their profiles. Built with Django and PostgreSQL.</p>
+        <div class="project-tags">
+          <span class="tag small">Django</span>
+          <span class="tag small">PostgreSQL</span>
+          <span class="tag small">Python</span>
+          <span class="tag small">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">⬡</span>
+          <div class="project-links">
+            <a href="https://github.com/bizkda/Talaba-attendance-app" target="_blank" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <h3>Talaba Attendance App</h3>
+        <p>A student attendance management system with registration, login, attendance tracking and archive management.</p>
+        <div class="project-tags">
+          <span class="tag small">PHP</span>
+          <span class="tag small">Python</span>
+          <span class="tag small">MySQL</span>
+          <span class="tag small">CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">⬡</span>
+        </div>
+        <h3>Covniv</h3>
+        <p>A web project. Check the GitHub repo for more details.</p>
+        <div class="project-tags">
+          <span class="tag small">Web</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">⬡</span>
+          <div class="project-links">
+            <a href="#" class="project-link">Coming Soon</a>
+          </div>
+        </div>
+        <h3>Screen Time Limiter</h3>
+        <p>An Android app that helps users manage and limit their phone usage. Promotes healthier screen habits with smart usage controls.</p>
+        <div class="project-tags">
+          <span class="tag small">Android</span>
+          <span class="tag small">Kotlin</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <span class="section-tag"># ./contact.exe</span>
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-content">
+      <div class="contact-terminal">
+        <div class="terminal-window small">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">contact_info.json</span>
+          </div>
+          <div class="terminal-body">
+  <pre>{
+  <span class="json-key">"email"</span>: 
+      "<a class="json-val" href="mailto:abderezak.mansour@se.univ-bejaia.com">abderezak.mansour@se.univ-bejaia.com</a>",
+  <span class="json-key">"github"</span>:
+      "<a class="json-val" href="https://github.com/bizkda" target="_blank">@bizkda</a>",
+  <span class="json-key">"location"</span>: 
+    <span class="json-val">"Bejaia, Algeria"</span>,
+  <span class="json-key">"status"</span>: 
+    <span class="json-val green">"available"</span>
+}</pre>
+</div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <footer>
+    <p> <span class="prompt">~$</span> bizk@portfolio &nbsp;|&nbsp; <a href="https://github.com/bizkda" target="_blank" style="color:var(--accent)">github.com/bizkda</a></p>
+  </footer>
+
+  <!--<script src="script.js"></script>-->
+</body>
+</html>
