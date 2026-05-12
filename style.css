@@ -90,6 +90,31 @@ nav {
   max-width: 700px;
   width: 100%;
 }
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  /* cool developer-style look */
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 20px rgba(0, 255, 170, 0.4);
+
+  /* optional animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 255, 170, 0.7);
+}
 
 .terminal-window {
   width: 100%;
