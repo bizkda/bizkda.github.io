@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abderezak Mansour — Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- NAV -->
@@ -19,12 +19,12 @@
     </ul>
   </nav>
 
-
+  <!-- HERO -->
   <section id="home" class="hero">
     <div class="hero-content">
-        <div class="hero-image">
-          <img src="me.jpg" alt="Abderezak Mansour">
-        </div>
+      <div class="hero-image">
+        <img src="me.jpg" alt="Abderezak Mansour">
+      </div>
       <div class="terminal-window">
         <div class="terminal-bar">
           <span class="dot red"></span>
@@ -50,7 +50,7 @@
     </div>
   </section>
 
-
+  <!-- ABOUT -->
   <section id="about" class="about">
     <div class="section-header">
       <span class="section-tag"># about.md</span>
@@ -61,20 +61,16 @@
         <div class="terminal-inline">
           <span class="prompt">~$</span> cat about.txt
         </div>
-          <p>Hi! I'm <strong>Abderezak</strong>, 
-            <br>
-            a Software Engineering student based in <strong>Bejaia, Algeria</strong>.</p>
-
-          <p>
+        <p>Hi! I'm <strong>Abderezak</strong>, a Software Engineering student based in <strong>Bejaia, Algeria</strong>.</p>
+        <p>
           I enjoy building applications across web, mobile, and desktop platforms. I'm passionate about Linux, experimenting with new tools, and continuously learning new technologies.
-          </p>
-
-          <p>
+        </p>
+        <p>
           When I'm not coding, I like customizing my desktop, exploring open-source projects, or watching people build exciting hardware projects in mechatronics and robotics.
-          </p>
-       <div class="stats">
+        </p>
+        <div class="stats">
           <div class="stat">
-            <span class="stat-num">4+</span>
+            <span class="stat-num">5+</span>
             <span class="stat-label">Projects</span>
           </div>
           <div class="stat">
@@ -91,17 +87,16 @@
           </div>
           <div class="info-item">
             <span class="info-key">location:</span>
-             <span class="info-val">Bejaia, Algeria</span>
+            <span class="info-val">Bejaia, Algeria</span>
           </div>
           <div class="info-item">
             <span class="info-key">github:</span> 
-            <span class="info-val"><a href="https://github.com/bizkda" target="_blank" style="color:var(--accent2)">@bizkda</a></span>
+            <span class="info-val"><a href="https://github.com/bizkda" target="_blank">@bizkda</a></span>
           </div>
           <div class="info-item">
-            <span class="info-key">linked in:</span> 
-            <span class="info-val"><a href="https://www.linkedin.com/in/abderezak-mansour-35b773396/" target="_blank" style="color:var(--accent2)">@Abderezak</a></span>
+            <span class="info-key">linkedin:</span> 
+            <span class="info-val"><a href="https://www.linkedin.com/in/abderezak-mansour-35b773396/" target="_blank">@Abderezak</a></span>
           </div>
-          
         </div>
       </div>
     </div>
@@ -123,11 +118,12 @@
         </div>
       </div>
       <div class="skill-category">
-        <h3>Backend</h3>
+        <h3>Backend & Automation</h3>
         <div class="skill-tags">
           <span class="tag">Python</span>
           <span class="tag">Django</span>
           <span class="tag">PHP</span>
+          <span class="tag">n8n Automation</span>
           <span class="tag">PostgreSQL</span>
           <span class="tag">MySQL</span>
         </div>
@@ -137,6 +133,7 @@
         <div class="skill-tags">
           <span class="tag">Git</span>
           <span class="tag">Docker</span>
+          <span class="tag">Linux</span>
         </div>
       </div>
     </div>
@@ -149,6 +146,23 @@
       <h2>Projects</h2>
     </div>
     <div class="projects-grid">
+      <!-- NEW: n8n Automation Project -->
+      <div class="project-card featured">
+        <div class="project-header">
+          <span class="project-icon">⚡</span>
+          <div class="project-links">
+            <a href="https://github.com/bizkda" target="_blank" class="project-link live">Service</a>
+          </div>
+        </div>
+        <h3>n8n Multi-Purpose Automation Solutions</h3>
+        <p>Custom-built workflows designed to connect APIs, automate repetitive data handling, integrate AI models (LLMs), and sync business tools seamlessly without manual overhead.</p>
+        <div class="project-tags">
+          <span class="tag small">n8n</span>
+          <span class="tag small">Automation</span>
+          <span class="tag small">APIs Integration</span>
+          <span class="tag small">AI Integration</span>
+        </div>
+      </div>
 
       <div class="project-card">
         <div class="project-header">
@@ -163,7 +177,6 @@
           <span class="tag small">Django</span>
           <span class="tag small">PostgreSQL</span>
           <span class="tag small">Python</span>
-          <span class="tag small">HTML/CSS</span>
         </div>
       </div>
 
@@ -180,7 +193,6 @@
           <span class="tag small">PHP</span>
           <span class="tag small">Python</span>
           <span class="tag small">MySQL</span>
-          <span class="tag small">CSS</span>
         </div>
       </div>
 
@@ -209,7 +221,6 @@
           <span class="tag small">Kotlin</span>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -229,27 +240,20 @@
             <span class="terminal-title">contact_info.json</span>
           </div>
           <div class="terminal-body">
-  <pre>{
-  <span class="json-key">"email"</span>: 
-      "<a class="json-val" href="mailto:abderezak.mansour@se.univ-bejaia.com">abderezak.mansour@se.univ-bejaia.com</a>",
-  <span class="json-key">"github"</span>:
-      "<a class="json-val" href="https://github.com/bizkda" target="_blank">@bizkda</a>",
-  <span class="json-key">"location"</span>: 
-    <span class="json-val">"Bejaia, Algeria"</span>,
-  <span class="json-key">"status"</span>: 
-    <span class="json-val green">"available"</span>
+            <pre>{
+  <span class="json-key">"email"</span>: "<a class="json-val" href="mailto:abderezak.mansour@se.univ-bejaia.com">abderezak.mansour@se.univ-bejaia.com</a>",
+  <span class="json-key">"github"</span>: "<a class="json-val" href="https://github.com/bizkda" target="_blank">@bizkda</a>",
+  <span class="json-key">"location"</span>: <span class="json-val">"Bejaia, Algeria"</span>,
+  <span class="json-key">"status"</span>: <span class="json-val green">"available"</span>
 }</pre>
-</div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
-
   <footer>
-    <p> <span class="prompt">~$</span> bizk@portfolio &nbsp;|&nbsp; <a href="https://github.com/bizkda" target="_blank" style="color:var(--accent)">github.com/bizkda</a></p>
+    <p><span class="prompt">~$</span> bizk@portfolio &nbsp;|&nbsp; <a href="https://github.com/bizkda" target="_blank">github.com/bizkda</a></p>
   </footer>
-
-  <!--<script src="script.js"></script>-->
 </body>
 </html>
